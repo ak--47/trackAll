@@ -15,7 +15,7 @@ Once you've added the Mixpanel library to your site, you can leverage this scrip
 ```
 
 
-2) (preferred) You can download/clone the script from github - host it on your website and make sure it loads before the `</head>` tag:
+2) (preferred) You can download/clone the script from [github](https://raw.githubusercontent.com/ak--47/trackAll/master/trackAll.js) - host it on your website and make sure it loads before the `</head>` tag:
 ```
 <!-- AK trackAll for Mixpanel -->
 <script src="https://path.to/trackAll.js"></script>
