@@ -1,10 +1,12 @@
 # trackAll (for Mixpanel)
 
-TrackAll is a script for the Mixpanel analytics platform which allows you to link once piece of javascript on your page which will automatically detect and send all major 'events' on your website, including *page clicks*, *link clicks*, *button clicks*, *completed forms*, and *page views*, to a Mixpanel project.
+trackAll is a script for the Mixpanel analytics platform which allows you to include two lines of javascript on your page which will automatically detect and send all major 'events' on your website, including *page clicks*, *link clicks*, *button clicks*, *completed forms*, and *page views*, to a Mixpanel project.
+
+User tracking and profile creation is also possible with this script.
 
 ## Installation
 
-To function, this script *REQUIRES* [Mixpanel's javascript library](https://mixpanel.com/help/reference/javascript) to be properly implemented on every page of your website before the `</head>` tag. It also requires [JQuery 2.x](https://code.jquery.com/)
+To work properly, this script *REQUIRES* [Mixpanel's javascript library](https://mixpanel.com/help/reference/javascript) to be implemented on every page of your website before the `</head>` tag. It also requires [JQuery 2.x](https://code.jquery.com/)
 
 Once you've added the Mixpanel library to your site, you can leverage this script in two ways. 
 
@@ -20,7 +22,7 @@ Once you've added the Mixpanel library to your site, you can leverage this scrip
 <!-- AK trackAll for Mixpanel -->
 <script src="https://path.to/trackAll.js"></script>
 ```
-Now, you can watch as _many_ different events (and properties) automatically populate inside of your Mixpanel project.
+Now, you can watch as _many_ different events (and properties) automatically populate inside of your Mixpanel project!
 
 _Optional_: You can also use ```mpLogIn() ``` when users login or sign up to add a user profile and connect that user's behavior to his or her profile.
 
